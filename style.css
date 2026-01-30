@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e7f5c, #38b000);
+  color: #fff;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.primary {
+  background: #ffcc00;
+  color: #000;
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.stats {
+  background: #f4f4f4;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.services, .why-us, .discover, .contact {
+  padding: 60px 0;
+}
+
+.services h2, .why-us h2, .discover h2, .contact h2 {
+  margin-bottom: 15px;
+}
+
+.services ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.services li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
